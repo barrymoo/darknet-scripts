@@ -14,6 +14,6 @@ The scripts are __specific__ to our dataset and you are welcome to contact me wi
 
 ### Running Darknet
 
-- Training: `darknet detector train towhee.data cfg/yolov3.cfg | tee training.log`
+- Training: `darknet detector train towhee.data cfg/towhee.cfg | tee training.log`
   - Generate loss: `./generate_loss.sh`, plot in gnuplot via `plot check.loss`
-- Validation: `darknet detector map towhee.data cfg/yolov3.cfg backup/yolov3_last.weights`
+- Validation: `darknet detector map towhee.data cfg/towhee.cfg backup/towhee_last.weights`
